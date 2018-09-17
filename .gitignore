@@ -25,3 +25,15 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/vendor/bundle
+
+.hgignore
+.hg
+
+# dotenv-rails
+.env
+
+# For config gem
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
