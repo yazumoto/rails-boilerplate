@@ -1,24 +1,47 @@
-# README
+# Rails Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is boilerplate for rails api developers.
+You can start your rails app without any annoying commit logs.
 
-Things you may want to cover:
+# What is installed?
 
-* Ruby version
+Rails Boilerplate install and setup some gems.
+- activerecord-session_store
+  - Use DB for session store.
+  - You can easily sync your sessions in multiple servers by db.
+- dotenv-rails
+  - configure secret information(which you don't want to up in git)
+- config
+  - configure environment settings
+- kaminari
+  - Easy Paging
+- pry-rails
+  - Easy Debugs
+- factory_bot_rails
+  - Easy Creating Test Data
+- rubocop
+  - Lint your project
+- rspec-rails
+  - Easy testing
+- spring-commands-rspec
+  - Speedup Rspec using spring
+- annotate
+  - Add columns comment to your model file
+- rails-erd
+  - Make ER diagram for your project
 
-* System dependencies
+# Usage
 
-* Configuration
+## Initialize your app
+```
+hg clone git@github.com:seteen/rails-boilerplate.git
+# Start your git project
+git init
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Update your app
+```
+hg pull
+hg up
+# resolve conflicts
+```
