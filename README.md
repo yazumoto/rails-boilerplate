@@ -3,6 +3,12 @@
 This repository is boilerplate for rails api developers.
 You can start your rails app without any annoying commit logs.
 
+# Versions
+```
+Ruby: 2.6.1
+Rails: 5.2.2
+```
+
 # What is installed?
 
 Rails Boilerplate install and setup some gems.
@@ -29,6 +35,18 @@ Rails Boilerplate install and setup some gems.
   - Add columns comment to your model file
 - rails-erd
   - Make ER diagram for your project
+- healthcheck_Rails
+  - Create healthcheck route
+- rspecz
+  - Extend RSpec
+- api_modules
+  - Modules for APIs
+- Unicorn
+  - App Server
+
+# Setup
+- Unicorn Setting
+  - Update `config/unicorn/production.rb`. Write your application name in first line. 
 
 # Usage
 
