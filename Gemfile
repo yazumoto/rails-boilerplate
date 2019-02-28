@@ -7,8 +7,8 @@ ruby '2.6.1'
 gem 'rails', '~> 5.2.2'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
-# Use Puma as the app server
-gem 'puma', '~> 3.11'
+# Use Unicorn as the app server
+gem 'unicorn'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
@@ -28,6 +28,8 @@ gem 'kaminari'
 # For Healthcheck
 gem 'healthcheck_rails'
 
+gem 'api_modules', github: 'yazumoto/api_modules'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -36,6 +38,8 @@ group :development, :test do
   gem 'rubocop', require: false
   gem 'rspec-rails'
   gem 'rspecz', github: 'rspecz/rspecz'
+  # Use Puma as the app server
+  gem 'puma', '~> 3.11'
 end
 
 group :development do
