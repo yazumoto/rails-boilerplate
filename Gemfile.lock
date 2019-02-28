@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/rspecz/rspecz.git
+  revision: cfac8e38eb33c3bf1260303487df4737b7fe0275
+  specs:
+    rspecz (0.1.2)
+      method_source (~> 0.9.0)
+      rspec (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -199,6 +207,10 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
     rspec-core (3.8.0)
       rspec-support (~> 3.8.0)
     rspec-expectations (3.8.2)
@@ -277,6 +289,7 @@ DEPENDENCIES
   rails (~> 5.2.2)
   rails-erd
   rspec-rails
+  rspecz!
   rubocop
   spring
   spring-commands-rspec
