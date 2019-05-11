@@ -7,8 +7,8 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.2'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
-# Use Unicorn as the app server
-gem 'unicorn'
+# Use Puma as the app server
+gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
@@ -38,8 +38,6 @@ group :development, :test do
   gem 'rubocop', require: false
   gem 'rspec-rails'
   gem 'rspecz', github: 'rspecz/rspecz'
-  # Use Puma as the app server
-  gem 'puma', '~> 3.11'
 end
 
 group :development do
