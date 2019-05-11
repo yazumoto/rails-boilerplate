@@ -2,6 +2,7 @@ syntax: regexp
 
 # Ignore bundler config.
 .bundle
+.git
 
 # Ignore all logfiles and tempfiles.
 log/*
