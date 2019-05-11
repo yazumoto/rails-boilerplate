@@ -5,8 +5,8 @@ You can start your rails app without any annoying commit logs.
 
 # Versions
 ```
-Ruby: 2.6.1
-Rails: 5.2.2
+Ruby: 2.6.3
+Rails: 5.2.3
 ```
 
 # What is installed?
@@ -41,12 +41,10 @@ Rails Boilerplate install and setup some gems.
   - Extend RSpec
 - api_modules
   - Modules for APIs
-- Unicorn
-  - App Server
 
 # Setup
-- Unicorn Setting
-  - Update `config/unicorn/production.rb`. Write your application name in first line. 
+- ApplicationName
+  - change `config/application.rb:9`
 
 # Usage
 
