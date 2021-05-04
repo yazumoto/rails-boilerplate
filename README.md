@@ -5,8 +5,8 @@ You can start your rails app without any annoying commit logs.
 
 # Versions
 ```
-Ruby: 2.6.3
-Rails: 5.2.3
+Ruby: 2.7.3
+Rails: 6.1.3
 ```
 
 # What is installed?
